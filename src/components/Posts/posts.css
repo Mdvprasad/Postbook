@@ -1,0 +1,21 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin:0 5%;
+}
+.header{
+    display:grid;
+    grid-template-areas: 'select button';
+    grid-template-columns: 1fr auto;
+    margin: 10px;
+}
+.select{
+    grid-area: select;
+    justify-self: start;
+    width:90%;
+    margin:0 2%;
+}
+.add{
+    grid-area: button;
+    justify-self: end;
+}

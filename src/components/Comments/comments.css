@@ -1,0 +1,11 @@
+.cardHeader{
+    text-align: left;
+    font-size: 14px;
+    background-color: aliceblue;
+    padding: 5px 16px !important ;
+}
+.content{
+    padding: 0 10% !important;
+    background-color: aliceblue;
+    text-align: left;
+}
